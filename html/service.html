@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/home/palash/Desktop/Safalmandi/static/css/style2.css">
+  </head>
+  <style type="text/css">
+  	body{
+  		background-color:#EEEEEE;
+  	}
+  </style>
+  <body>
+     <header>
+      <h1 class="text-center">SafalMandi.com</h1>
+    </header>
+
+  
+<button type="button" class="btn btn-general btn-home1" data-toggle="modal" data-target="#exampleModal">
+  SignUp As A Seller
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Seller SignUp</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <main>
+      <section id="borC">
+        <form class="" action="submission.html" method="post">
+        </form>
+      </section>
+      <section>
+        <form class="" action="submission.html" method="post">
+          <span><h3>Shop</h3></span>
+          <label for="shopname">Name of the Shop*  </label>
+          <input type="text" name="N_shop" id="shopname" required >
+          <br><br>
+          <label for="shopaddress">Adress*     </label>
+          <input type="text" name="Add_shop" id="shopaddress" required>
+          <br><br>
+          <label for="shopowner">Owner</label>
+          <input type="text" name="owner" id="shopowner" placeholder="Shop Owner Name">
+          <br><br>
+          <label for="shopkeeper">Shop-Keeper</label>
+          <input type="text" name="shop_keeper" id="shopkeeper" >
+          <br><br>
+          <label for="products"><h5>What do you sell in the Shop*</h5></label>
+          <textarea id="products" name="products" rows="8" cols="80" placeholder="Shop-description" required></textarea>
+          <br>
+          <span><h5>Contact Details*</h5></span>
+          <label for="pno1">Mobile No.*</label>
+          <input type="number" name="mob" id="pno1" minlength="10" maxlength="10" required >
+          <br><br>
+          <label for="pno2">Alternate Mob. No.</label>
+          <input type="number" name="mob2" id="pno2" minlength="10" maxlength="10" >
+          <br><br>
+          <section class="submission">
+            <!--Add your code below-->
+            <input type="submit" value="Submit">
+          </section>
+        </form>
+      </section>
+    </main>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Buyer Signup -->
+<button type="button" class="btn btn-general btn-home2" data-toggle="modal" data-target="#exampleModal1">
+  SignUp As A buyer
+</button>
+
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModal1Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal1Label">Buyer SignUp</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <main>
+      <section id="borC">
+        <form class="" action="submission.html" method="post">
+
+      </section>
+      <section>
+        <form class="" action="submission.html" method="post">
+          <span><h3>Buyer</h3></span>
+          <label for="bname">Name*</label>
+          <input type="text" name="bname" id="bname" required>
+          <br><br>
+          <label for="bmail">Email_id</label>
+          <input type="text" name="bmail" id="bmail">
+          <br><br>
+          <label for="bmob">Mobile No.*</label>
+          <input type="number" name="bmob" id="bmob" minlength="10" maxlength="10" required>
+          <br><br>
+          <label for="baddress">Adress*</label>
+          <input type="text" name="baddress" id="address" required >
+          <br><br>
+          <section class="submission">
+            <!--Add your code below-->
+            <input type="submit" value="Submit">
+          </section>
+
+        </form>
+      </section>
+    </main>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </body>
+  </html>
